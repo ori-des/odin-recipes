@@ -2,3 +2,12 @@
     background-color: black;
     color: white;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: chartreuse;
+    color: black;
+}
