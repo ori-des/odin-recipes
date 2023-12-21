@@ -1,13 +1,42 @@
 * {
     background-color: black;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover , 
+ol li:hover {
     background-color: chartreuse;
     color: black;
+}
+
+div.index h1 , 
+div.index ul ,
+.title {
+    text-align: center;
+    margin-top: 200px;
+}
+
+div.index h1,
+.title {
+    padding-left: 44px;
+    background-color: chartreuse;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    color: black;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    padding-right: 50px;
 }
