@@ -32,7 +32,7 @@ div.index h1,
 
 .recipe {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -41,8 +41,8 @@ img {
     padding-right: 50px;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
     .recipe {
-       flex-direction: column;
+       flex-direction: row;
     }
 }
