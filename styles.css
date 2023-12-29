@@ -21,9 +21,13 @@ div.index ul ,
     margin-top: 200px;
 }
 
+div.index ul {
+    margin: 0;
+    padding: 0;
+}
+
 div.index h1,
 .title {
-    padding-left: 44px;
     background-color: chartreuse;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
