@@ -40,3 +40,9 @@ div.index h1,
 img {
     padding-right: 50px;
 }
+
+@media (max-width: 800px) {
+    .recipe {
+       flex-direction: column;
+    }
+}
