@@ -37,12 +37,14 @@ div.index h1,
 .recipe {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
-img {
-    padding-right: 50px;
+.card {
+    width: 450px;
 }
 
 @media (min-width: 750px) {
