@@ -47,6 +47,11 @@ div.index h1,
     width: 450px;
 }
 
+img {
+    max-width: 500px;
+    height: auto;
+}
+
 @media (min-width: 750px) {
     .recipe {
        flex-direction: row;
