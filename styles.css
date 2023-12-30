@@ -52,3 +52,12 @@ div.index h1,
        flex-direction: row;
     }
 }
+
+@media (max-width: 600px) {
+    img,
+    .card,
+    .title {
+        max-width: 300px;
+        height: auto;
+    }
+}
